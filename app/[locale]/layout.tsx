@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import Script from "next/script";
+import GaPageView from "@/components/analytics/GaPageView";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://synorq.com'),
+  metadataBase: new URL("https://synorq.com"),
   title: {
     default: "Synorq | AI-Powered Software Solutions",
     template: "%s | Synorq",
@@ -45,10 +47,39 @@ export default async function LocaleLayout({
   children: React.ReactNode;
 }) {
   const messages = await getMessages();
+  const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
   return (
-    <NextIntlClientProvider messages={messages}>
-      {children}
-    </NextIntlClientProvider>
+    <>
+      {/* GA4: Load gtag.js */}
+      {GA_ID ? (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="ga4-init" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              window.gtag = gtag;
+
+              gtag('js', new Date());
+              gtag('config', '${GA_ID}', {
+                anonymize_ip: true,
+                send_page_view: true
+              });
+            `}
+          </Script>
+        </>
+      ) : null}
+
+      {/* next-intl provider */}
+      <NextIntlClientProvider messages={messages}>
+        {/* SPA route changes → page_view */}
+        {GA_ID ? <GaPageView gaId={GA_ID} /> : null}
+        {children}
+      </NextIntlClientProvider>
+    </>
   );
 }
