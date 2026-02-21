@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://synorq.com'),
   title: {
     default: "Synorq | AI-Powered Software Solutions",
     template: "%s | Synorq",
