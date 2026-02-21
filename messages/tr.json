@@ -8,12 +8,14 @@
     "cta": "Keşif Görüşmesi"
   },
   "hero": {
+    "studio_badge": "Ürün Odaklı Yazılım Stüdyosu",
     "badge": "AI Destekli Yazılım Şirketi",
     "headline": "Daha Akıllı Kur.",
     "headline_accent": "Daha Hızlı Büyü.",
     "subline": "Web & mobil ürünlerinizi 6–10 haftada production'a çıkarır, AI otomasyonlarıyla operasyon maliyetini düşürürüz.",
+    "micro_proof": "Ortalama yayına alma süresi: 8 hafta · Sprint bazlı teslimat + teknik dokümantasyon",
     "cta_primary": "Keşif Görüşmesi Planla",
-    "cta_secondary": "GoldRisk AI'ı İncele",
+    "cta_secondary": "Ürünleri İncele",
     "trusted_by": "Güvenildi",
     "trust_projects": "50+",
     "trust_projects_label": "Teslimat",
@@ -66,16 +68,21 @@
     "goldrisk": {
       "tag": "Fintech · Kuyumculuk",
       "badge": "Canlı",
+      "in_house_badge": "Synorq dahili ürünü",
       "name": "GoldRisk AI",
       "description": "Kuyumcu işletmeleri için AI destekli kârlılık ve risk analizi platformu. Çok şubeli destek ve finansal raporlama.",
       "features": ["Stok & kârlılık analizi", "Risk skorlaması", "Çok şube yönetimi", "Finansal raporlama"],
       "cta": "Demo Talep Et",
+      "mailto_subject_demo": "GoldRisk AI Demo",
       "result": "Kârlılık & risk görünürlüğü"
     },
     "coming_soon": "Yakında",
+    "coming_soon_title": "Sonraki Dikeyler",
+    "coming_soon_items": ["AI destekli ERP analitiği", "Tekstil operasyon platformu", "E-öğrenme analitik paketi"],
     "coming_soon_sector": "E-ticaret / Tekstil",
     "coming_soon_description": "Tekstil firmaları için envanter, sipariş ve tedarik zinciri yönetimi platformu.",
-    "coming_soon_notify": "Haberdar Et"
+    "coming_soon_notify": "Haberdar Et",
+    "mailto_subject_product_update": "Ürün Güncelleme"
   },
   "industries": {
     "label": "Sektörler",
@@ -84,22 +91,26 @@
     "fintech": {
       "title": "Fintech & Kuyumculuk",
       "description": "kanıtlanmış uzmanlık (GoldRisk AI)",
-      "why": "GoldRisk AI ile prova edilmiş"
+      "why": "GoldRisk AI ile prova edilmiş",
+      "result": "Risk görünürlüğü + çok şubeli operasyon kontrolü"
     },
     "ecommerce": {
       "title": "E-ticaret & Tekstil",
       "description": "entegrasyon + otomasyon ile ölçek",
-      "why": "Tekstil ihracatına dijital altyapı"
+      "why": "Tekstil ihracatına dijital altyapı",
+      "result": "Entegrasyon yükünü azaltan otomasyon katmanı"
     },
     "elearning": {
       "title": "E-öğrenme",
       "description": "yüksek trafikte stabil LMS",
-      "why": "Ölçeklenebilir LMS çözümleri"
+      "why": "Ölçeklenebilir LMS çözümleri",
+      "result": "Ölçeklenebilir, yüksek trafikte stabil LMS"
     },
     "enterprise": {
       "title": "Kurumsal",
       "description": "legacy entegrasyon ve süreç otomasyonu",
-      "why": "ERP entegrasyonu & otomasyon"
+      "why": "ERP entegrasyonu & otomasyon",
+      "result": "ERP entegrasyonu ve süreç otomasyonu"
     }
   },
   "howItWorks": {
@@ -110,19 +121,19 @@
       "title": "Keşif & Analiz",
       "duration": "1–2 hafta",
       "description": "hedefler, kapsam, teknik fizibilite",
-      "artifact": "Scope doc, backlog, mimari"
+      "artifact": "Scope doc + teknik fizibilite + sprint plan"
     },
     "step2": {
       "title": "Tasarım & Teslimat",
       "duration": "Sprint",
       "description": "sprint'ler, demo ritmi, kalite kapıları",
-      "artifact": "Haftalık demo, staging"
+      "artifact": "Haftalık demo + staging + performans test"
     },
     "step3": {
       "title": "Canlıya Alma & Destek",
       "duration": "SLA",
       "description": "deploy, izleme, iyileştirme",
-      "artifact": "Deploy + monitoring + support"
+      "artifact": "Monitoring + SLA + iteratif geliştirme"
     }
   },
   "testimonials": {
@@ -134,6 +145,8 @@
     "metric_label_sectors": "Sektör",
     "metric_value_countries": "3",
     "metric_label_countries": "Ülke",
+    "metric_value_golive": "8 hft",
+    "metric_label_golive": "Ort. go-live",
     "items": [
       {
         "name": "Placeholder",
@@ -163,12 +176,14 @@
     "send_another": "Yeni mesaj gönder",
     "submitting": "Gönderiliyor...",
     "privacy_note": "Bilgileriniz asla üçüncü taraflarla paylaşılmaz.",
-    "optional": "(opsiyonel)",
+    "optional": "opsiyonel",
     "name": "Ad Soyad",
+    "name_label": "Ad Soyad",
     "name_placeholder": "Ad Soyad",
     "email": "E-posta",
+    "email_label": "E-posta",
     "email_placeholder": "ornek@sirket.com",
-    "company": "Şirket (opsiyonel)",
+    "company": "Şirket",
     "company_placeholder": "Şirket adı",
     "sector": "Sektör",
     "sectors": {
@@ -180,14 +195,21 @@
     },
     "message": "Mesajınız",
     "message_placeholder": "Projenizi kısaca anlatın...",
-    "budget": "Bütçe aralığı (opsiyonel)",
+    "budget": "Bütçe",
     "budget_placeholder": "₺50k–100k",
     "submit": "Talep Gönder",
+    "response_promise": "48 saat içinde dönüş sağlıyoruz.",
     "success": "Mesajınız alındı. 48 saat içinde yol haritası ve teklif paylaşacağız.",
     "error": "Bir hata oluştu. Lütfen tekrar deneyin."
   },
   "footer": {
-    "tagline": "Build Smarter. Scale Faster.",
+    "tagline": "Daha Akıllı Kur. Daha Hızlı Büyü.",
+    "col_services": "Hizmetler",
+    "col_products": "Ürünler",
+    "col_company": "Şirket",
+    "goldrisk": "GoldRisk AI",
+    "coming_soon": "Yakında",
+    "status": "Aktif olarak proje alıyoruz",
     "services": "Hizmetler",
     "products": "Ürünler",
     "industries": "Sektörler",

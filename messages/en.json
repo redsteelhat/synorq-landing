@@ -8,12 +8,14 @@
     "cta": "Book a Call"
   },
   "hero": {
+    "studio_badge": "Product-Driven Software Studio",
     "badge": "AI-Powered Software Company",
     "headline": "Build Smarter.",
     "headline_accent": "Scale Faster.",
     "subline": "We ship web & mobile products in 6–10 weeks and reduce ops cost with AI automation.",
+    "micro_proof": "Avg. go-live: 8 weeks · Sprint-based delivery + technical documentation",
     "cta_primary": "Book a Discovery Call",
-    "cta_secondary": "Explore GoldRisk AI",
+    "cta_secondary": "Explore Products",
     "trusted_by": "Trusted By",
     "trust_projects": "50+",
     "trust_projects_label": "Delivery",
@@ -66,16 +68,21 @@
     "goldrisk": {
       "tag": "Fintech · Jewelry",
       "badge": "Live",
+      "in_house_badge": "Synorq in-house product",
       "name": "GoldRisk AI",
       "description": "AI-powered profitability and risk analytics for jewelry businesses—built for multi-branch operations and reporting.",
       "features": ["Stock & profitability analysis", "Risk scoring", "Multi-branch management", "Financial reporting"],
       "cta": "Request Demo",
+      "mailto_subject_demo": "GoldRisk AI Demo",
       "result": "Profitability & risk visibility"
     },
     "coming_soon": "Coming Soon",
+    "coming_soon_title": "Next Verticals",
+    "coming_soon_items": ["AI-driven ERP analytics", "Textile operations platform", "E-learning analytics suite"],
     "coming_soon_sector": "E-commerce / Textile",
     "coming_soon_description": "Inventory, order and supply chain management platform for textile companies.",
-    "coming_soon_notify": "Notify Me"
+    "coming_soon_notify": "Notify Me",
+    "mailto_subject_product_update": "Product Update"
   },
   "industries": {
     "label": "Industries",
@@ -84,22 +91,26 @@
     "fintech": {
       "title": "Fintech & Jewelry",
       "description": "Proven expertise (GoldRisk AI)",
-      "why": "Proven with GoldRisk AI"
+      "why": "Proven with GoldRisk AI",
+      "result": "Risk visibility + multi-branch operations control"
     },
     "ecommerce": {
       "title": "E-commerce & Textile",
       "description": "Scale with integration + automation",
-      "why": "Digital infrastructure for textile export"
+      "why": "Digital infrastructure for textile export",
+      "result": "Automation layer that reduces integration burden"
     },
     "elearning": {
       "title": "E-learning",
       "description": "Stable LMS at scale",
-      "why": "Scalable LMS solutions"
+      "why": "Scalable LMS solutions",
+      "result": "Scalable, high-traffic stable LMS"
     },
     "enterprise": {
       "title": "Enterprise & Corporate",
       "description": "Legacy integration and process automation",
-      "why": "ERP integration & automation"
+      "why": "ERP integration & automation",
+      "result": "ERP integration and process automation"
     }
   },
   "howItWorks": {
@@ -110,19 +121,19 @@
       "title": "Discovery & Analysis",
       "duration": "1–2 weeks",
       "description": "goals, scope, technical feasibility",
-      "artifact": "Scope doc, backlog, architecture"
+      "artifact": "Scope doc + technical feasibility + sprint plan"
     },
     "step2": {
       "title": "Design & Delivery",
       "duration": "Sprint",
       "description": "sprints, demo cadence, quality gates",
-      "artifact": "Weekly demo, staging"
+      "artifact": "Weekly demo + staging + performance test"
     },
     "step3": {
       "title": "Launch & Support",
       "duration": "SLA",
       "description": "go-live, monitoring, iteration",
-      "artifact": "Deploy + monitoring + support"
+      "artifact": "Monitoring + SLA + iterative development"
     }
   },
   "testimonials": {
@@ -134,6 +145,8 @@
     "metric_label_sectors": "Industries",
     "metric_value_countries": "3",
     "metric_label_countries": "Countries",
+    "metric_value_golive": "8 wks",
+    "metric_label_golive": "Avg. go-live",
     "items": [
       {
         "name": "Placeholder",
@@ -163,12 +176,14 @@
     "send_another": "Send another message",
     "submitting": "Sending...",
     "privacy_note": "Your information is never shared with third parties.",
-    "optional": "(optional)",
+    "optional": "optional",
     "name": "Full Name",
+    "name_label": "Full Name",
     "name_placeholder": "Full Name",
     "email": "Email",
+    "email_label": "Email",
     "email_placeholder": "example@company.com",
-    "company": "Company (optional)",
+    "company": "Company",
     "company_placeholder": "Company name",
     "sector": "Sector",
     "sectors": {
@@ -180,14 +195,21 @@
     },
     "message": "Your Message",
     "message_placeholder": "Briefly describe your project...",
-    "budget": "Budget range (optional)",
+    "budget": "Budget",
     "budget_placeholder": "$50k–100k",
     "submit": "Send Request",
+    "response_promise": "We respond within 48 hours.",
     "success": "Your message has been received. We'll share a roadmap and proposal within 48 hours.",
     "error": "An error occurred. Please try again."
   },
   "footer": {
     "tagline": "Build Smarter. Scale Faster.",
+    "col_services": "Services",
+    "col_products": "Products",
+    "col_company": "Company",
+    "goldrisk": "GoldRisk AI",
+    "coming_soon": "Coming Soon",
+    "status": "We're actively taking on projects",
     "services": "Services",
     "products": "Products",
     "industries": "Industries",

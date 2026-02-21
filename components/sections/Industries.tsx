@@ -22,7 +22,7 @@ export function Industries() {
     <section
       id="industries"
       ref={ref}
-      className="py-24 md:py-32 px-6 md:px-12 lg:px-24"
+      className="py-16 md:py-20 px-6 md:px-12 lg:px-24"
     >
       <div className="max-w-content mx-auto">
 
@@ -97,8 +97,11 @@ export function Industries() {
                         {t(`${key}.title`)}
                       </h3>
                     </div>
-                    <p className="text-text-muted text-sm leading-relaxed mb-3">
+                    <p className="text-text-muted text-sm leading-relaxed mb-2">
                       {t(`${key}.description`)}
+                    </p>
+                    <p className="text-sm font-medium mb-3" style={{ color: cfg.color + "CC" }}>
+                      {t(`${key}.result`)}
                     </p>
                     {/* Why Synorq tag */}
                     <span

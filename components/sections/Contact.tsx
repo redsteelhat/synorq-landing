@@ -19,6 +19,7 @@ const inputBase = [
 ].join(" ");
 
 function Label({ children, optional }: { children: React.ReactNode; optional?: boolean }) {
+  const t = useTranslations("contact");
   return (
     <div className="flex items-center gap-1.5 mb-2">
       <span className="text-[11px] font-semibold text-text-muted/60 uppercase tracking-[0.12em]">
@@ -26,7 +27,7 @@ function Label({ children, optional }: { children: React.ReactNode; optional?: b
       </span>
       {optional && (
         <span className="text-[10px] text-text-muted/30 italic normal-case tracking-normal font-normal">
-          opsiyonel
+          {t("optional")}
         </span>
       )}
     </div>
@@ -79,7 +80,7 @@ export function Contact() {
     <section
       id="contact"
       ref={ref}
-      className="py-24 md:py-32 px-6 md:px-12 lg:px-24 relative overflow-hidden"
+      className="py-16 md:py-20 px-6 md:px-12 lg:px-24 relative overflow-hidden"
     >
       {/* Background glow */}
       <div
@@ -175,12 +176,12 @@ export function Contact() {
                   {/* Name + Email */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                      <Label>{t("name")}</Label>
+                      <Label>{t("name_label")}</Label>
                       <input {...register("name")} className={inputBase} placeholder={t("name_placeholder")} />
                       <FieldError message={errors.name?.message} />
                     </div>
                     <div>
-                      <Label>{t("email")}</Label>
+                      <Label>{t("email_label")}</Label>
                       <input type="email" {...register("email")} className={inputBase} placeholder={t("email_placeholder")} />
                       <FieldError message={errors.email?.message} />
                     </div>
@@ -189,11 +190,11 @@ export function Contact() {
                   {/* Company + Sector + Budget */}
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-end">
                     <div>
-                      <Label optional>Şirket</Label>
+                      <Label optional>{t("company")}</Label>
                       <input {...register("company")} className={inputBase} placeholder={t("company_placeholder")} />
                     </div>
                     <div>
-                      <Label>Sektör</Label>
+                      <Label>{t("sector")}</Label>
                       <div className="relative">
                         <select
                           {...register("sector")}
@@ -215,7 +216,7 @@ export function Contact() {
                       </div>
                     </div>
                     <div>
-                      <Label optional>Bütçe</Label>
+                      <Label optional>{t("budget")}</Label>
                       <input {...register("budget")} className={inputBase} placeholder={t("budget_placeholder")} />
                     </div>
                   </div>
@@ -288,6 +289,10 @@ export function Contact() {
                       </span>
                     )}
                   </button>
+
+                  <p className="text-center text-accent/80 text-xs font-medium">
+                    {t("response_promise")}
+                  </p>
 
                   {/* Privacy */}
                   <p className="text-center text-text-muted/30 text-xs">

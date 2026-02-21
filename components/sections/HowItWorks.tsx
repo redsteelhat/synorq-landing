@@ -21,7 +21,7 @@ export function HowItWorks() {
     <section
       id="about"
       ref={ref}
-      className="py-24 md:py-32 px-6 md:px-12 lg:px-24"
+      className="py-16 md:py-20 px-6 md:px-12 lg:px-24"
     >
       <div className="max-w-content mx-auto">
 
@@ -47,8 +47,8 @@ export function HowItWorks() {
         <div className="relative grid grid-cols-1 md:grid-cols-3 gap-5">
 
           {/* Connector line — desktop */}
-          <div className="hidden md:block absolute top-[52px] left-[calc(16.66%+16px)] right-[calc(16.66%+16px)] h-px z-0">
-            <div className="h-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+          <div className="hidden md:block absolute top-[72px] left-[calc(16.67%+24px)] right-[calc(16.67%+24px)] h-[2px] z-[5] pointer-events-none">
+            <div className="h-full bg-gradient-to-r from-transparent via-white/25 to-transparent" aria-hidden="true" />
             {/* Animated travel dot */}
             <motion.div
               className="absolute top-1/2 -translate-y-1/2 w-3 h-3 rounded-full"

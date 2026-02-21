@@ -25,7 +25,7 @@ export function Services() {
     <section
       id="services"
       ref={ref}
-      className="py-24 md:py-32 px-6 md:px-12 lg:px-24"
+      className="pt-8 md:pt-12 pb-16 md:pb-20 px-6 md:px-12 lg:px-24 -mt-2"
     >
       <div className="max-w-content mx-auto">
 

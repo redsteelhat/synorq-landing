@@ -149,7 +149,7 @@ export function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 md:pt-32">
       <BackgroundMesh />
 
       <div className="relative z-10 w-full max-w-content mx-auto px-6 md:px-12 lg:px-24 py-24 md:py-0">
@@ -159,6 +159,10 @@ export function Hero() {
           animate="show"
           className="flex flex-col items-center text-center max-w-4xl mx-auto gap-6"
         >
+          {/* Studio badge */}
+          <motion.span variants={item} className="text-xs font-medium uppercase tracking-[0.25em] text-accent/60">
+            {t("studio_badge")}
+          </motion.span>
           {/* Badge */}
           <motion.div variants={item}>
             <span className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full bg-accent/8 border border-accent/25 text-accent text-sm font-medium backdrop-blur-sm">
@@ -197,6 +201,10 @@ export function Hero() {
             className="text-text-muted text-lg md:text-xl leading-relaxed max-w-2xl mx-auto"
           >
             {t("subline")}
+          </motion.p>
+          {/* Micro proof */}
+          <motion.p variants={item} className="text-text-muted/70 text-sm max-w-xl mx-auto">
+            {t("micro_proof")}
           </motion.p>
 
           {/* CTAs */}

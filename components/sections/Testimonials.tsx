@@ -9,12 +9,14 @@ const accentColors = [
   { color: "#A78BFA", bg: "rgba(167,139,250,0.07)", glow: "rgba(167,139,250,0.12)" },
   { color: "#34D399", bg: "rgba(52,211,153,0.07)",  glow: "rgba(52,211,153,0.12)"  },
   { color: "#F59E0B", bg: "rgba(245,158,11,0.07)",  glow: "rgba(245,158,11,0.12)"  },
+  { color: "#F472B6", bg: "rgba(244,114,182,0.07)", glow: "rgba(244,114,182,0.12)" },
 ];
 
 const metrics = [
   { valueKey: "metric_value_projects", labelKey: "metric_label_projects" },
   { valueKey: "metric_value_sectors",  labelKey: "metric_label_sectors"  },
   { valueKey: "metric_value_countries",labelKey: "metric_label_countries" },
+  { valueKey: "metric_value_golive",   labelKey: "metric_label_golive"   },
 ];
 
 export function Testimonials() {
@@ -32,7 +34,7 @@ export function Testimonials() {
   return (
     <section
       ref={ref}
-      className="py-24 md:py-32 px-6 md:px-12 lg:px-24"
+      className="py-16 md:py-20 px-6 md:px-12 lg:px-24"
     >
       <div className="max-w-content mx-auto">
 
@@ -79,7 +81,7 @@ export function Testimonials() {
         </motion.div>
 
         {/* Quote cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:grid-flow-dense">
           {items.map((item, i) => {
             const cfg = accentColors[i % accentColors.length];
             return (
@@ -88,7 +90,7 @@ export function Testimonials() {
                 initial={{ opacity: 0, y: 36 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.15 + i * 0.08, ease: "easeOut" }}
-                className="group relative rounded-2xl border border-white/[0.07] overflow-hidden transition-all duration-300"
+                className={`group relative rounded-2xl border border-white/[0.07] overflow-hidden transition-all duration-300 ${i === 2 ? "md:col-span-2 md:max-w-[calc(50%-0.625rem)] md:justify-self-center" : ""}`}
                 style={{ background: "rgba(255,255,255,0.02)" }}
                 onMouseEnter={(e) => {
                   (e.currentTarget as HTMLElement).style.borderColor = cfg.color + "40";

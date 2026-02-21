@@ -14,7 +14,7 @@ export function Products() {
     <section
       id="products"
       ref={ref}
-      className="py-24 md:py-32 px-6 md:px-12 lg:px-24"
+      className="py-16 md:py-20 px-6 md:px-12 lg:px-24"
     >
       <div className="max-w-content mx-auto">
 
@@ -81,6 +81,15 @@ export function Products() {
                   {t("goldrisk.tag")}
                 </span>
                 <span
+                  className="text-xs px-2.5 py-1 rounded-md font-semibold"
+                  style={{
+                    background: "rgba(0,212,255,0.15)",
+                    color: "#00D4FF",
+                  }}
+                >
+                  {t("goldrisk.in_house_badge")}
+                </span>
+                <span
                   className="text-xs px-3 py-1 rounded-full font-semibold border"
                   style={{
                     background: "rgba(0,212,255,0.12)",
@@ -131,7 +140,7 @@ export function Products() {
               {/* CTA */}
               <div className="mt-auto">
                 <a
-                  href="mailto:hello@synorq.com?subject=GoldRisk AI Demo"
+                  href={`mailto:hello@synorq.com?subject=${encodeURIComponent(t("goldrisk.mailto_subject_demo"))}`}
                   className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-300 hover:scale-[1.03] active:scale-[0.97]"
                   style={{
                     background: "linear-gradient(135deg, #00D4FF, #0099CC)",
@@ -179,7 +188,7 @@ export function Products() {
                 🧵
               </div>
 
-              {/* Sector badge */}
+              {/* Next Verticals title */}
               <span
                 className="text-[11px] font-semibold uppercase tracking-[0.18em] px-3 py-1.5 rounded-full border"
                 style={{
@@ -188,21 +197,26 @@ export function Products() {
                   borderColor: "rgba(123,47,255,0.25)",
                 }}
               >
-                {t("coming_soon_sector")}
+                {t("coming_soon_title")}
               </span>
 
               <div>
-                <p className="text-text font-display font-semibold text-lg mb-2">
+                <p className="text-text font-display font-semibold text-lg mb-3">
                   {t("coming_soon")}
                 </p>
-                <p className="text-text-muted/70 text-sm leading-relaxed max-w-[220px]">
-                  {t("coming_soon_description")}
-                </p>
+                <ul className="text-text-muted/80 text-sm space-y-1.5 text-left max-w-[220px] mx-auto">
+                  {(t.raw("coming_soon_items") as string[]).map((item, i) => (
+                    <li key={i} className="flex items-center gap-2">
+                      <span className="text-accent/60">·</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               {/* Notify CTA */}
               <a
-                href="mailto:hello@synorq.com?subject=Ürün Güncelleme"
+                href={`mailto:hello@synorq.com?subject=${encodeURIComponent(t("mailto_subject_product_update"))}`}
                 className="mt-2 text-xs font-medium border border-white/10 px-4 py-2.5 rounded-xl text-text-muted hover:text-accent hover:border-accent/30 transition-all duration-200"
               >
                 {t("coming_soon_notify")}
