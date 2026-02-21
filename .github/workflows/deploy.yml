@@ -1,6 +1,6 @@
 name: ci test
 
-on:
+"on":
   push:
     branches:
       - main
