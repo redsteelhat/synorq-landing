@@ -23,7 +23,9 @@
     "trust_countries_label": "Countries"
   },
   "services": {
+    "label": "Services",
     "title": "What We Do",
+    "subtitle": "We meet your needs with web, mobile and AI-focused software solutions.",
     "items": {
       "custom": {
         "title": "Custom Software Development",
@@ -58,7 +60,9 @@
     }
   },
   "products": {
+    "label": "Our Products",
     "title": "Our Products",
+    "subtitle": "Industry-specific, scalable SaaS products.",
     "goldrisk": {
       "tag": "Fintech · Jewelry",
       "badge": "Live",
@@ -69,29 +73,39 @@
       "result": "Profitability & risk visibility"
     },
     "coming_soon": "Coming Soon",
-    "coming_soon_sector": "E-commerce / Textile"
+    "coming_soon_sector": "E-commerce / Textile",
+    "coming_soon_description": "Inventory, order and supply chain management platform for textile companies.",
+    "coming_soon_notify": "Notify Me"
   },
   "industries": {
+    "label": "Industries",
     "title": "Industries We Serve",
+    "subtitle": "Deep expertise and proven solutions across four critical sectors.",
     "fintech": {
       "title": "Fintech & Jewelry",
-      "description": "Proven expertise (GoldRisk AI)"
+      "description": "Proven expertise (GoldRisk AI)",
+      "why": "Proven with GoldRisk AI"
     },
     "ecommerce": {
       "title": "E-commerce & Textile",
-      "description": "Scale with integration + automation"
+      "description": "Scale with integration + automation",
+      "why": "Digital infrastructure for textile export"
     },
     "elearning": {
       "title": "E-learning",
-      "description": "Stable LMS at scale"
+      "description": "Stable LMS at scale",
+      "why": "Scalable LMS solutions"
     },
     "enterprise": {
       "title": "Enterprise & Corporate",
-      "description": "Legacy integration and process automation"
+      "description": "Legacy integration and process automation",
+      "why": "ERP integration & automation"
     }
   },
   "howItWorks": {
+    "label": "Process",
     "title": "How We Work",
+    "subtitle": "A simple, transparent and outcome-focused working model.",
     "step1": {
       "title": "Discovery & Analysis",
       "duration": "1–2 weeks",
@@ -112,10 +126,14 @@
     }
   },
   "testimonials": {
+    "label": "References",
     "title": "Trusted Partner",
-    "metric_projects": "50+ Projects",
-    "metric_sectors": "4 Industries",
-    "metric_countries": "3 Countries",
+    "metric_value_projects": "50+",
+    "metric_label_projects": "Completed Projects",
+    "metric_value_sectors": "4",
+    "metric_label_sectors": "Industries",
+    "metric_value_countries": "3",
+    "metric_label_countries": "Countries",
     "items": [
       {
         "name": "Placeholder",
@@ -138,11 +156,20 @@
     ]
   },
   "contact": {
+    "label": "Contact",
     "title": "Let's Build Together",
     "subtext": "We'll clarify scope and share a roadmap + proposal within 48 hours.",
+    "success_title": "Message received!",
+    "send_another": "Send another message",
+    "submitting": "Sending...",
+    "privacy_note": "Your information is never shared with third parties.",
+    "optional": "(optional)",
     "name": "Full Name",
+    "name_placeholder": "Full Name",
     "email": "Email",
+    "email_placeholder": "example@company.com",
     "company": "Company (optional)",
+    "company_placeholder": "Company name",
     "sector": "Sector",
     "sectors": {
       "fintech": "Fintech",
@@ -152,7 +179,9 @@
       "other": "Other"
     },
     "message": "Your Message",
+    "message_placeholder": "Briefly describe your project...",
     "budget": "Budget range (optional)",
+    "budget_placeholder": "$50k–100k",
     "submit": "Send Request",
     "success": "Your message has been received. We'll share a roadmap and proposal within 48 hours.",
     "error": "An error occurred. Please try again."

@@ -6,7 +6,7 @@ function buildEmailHtml(data: {
   name: string;
   email: string;
   company?: string;
-  sector: string;
+  sector?: string;
   message: string;
   budget?: string;
 }) {
@@ -22,7 +22,7 @@ function buildEmailHtml(data: {
     <p><strong>Ad Soyad:</strong> ${data.name}</p>
     <p><strong>E-posta:</strong> ${data.email}</p>
     ${data.company ? `<p><strong>Şirket:</strong> ${data.company}</p>` : ""}
-    <p><strong>Sektör:</strong> ${sectorLabels[data.sector] ?? data.sector}</p>
+    ${data.sector ? `<p><strong>Sektör:</strong> ${sectorLabels[data.sector] ?? String(data.sector)}</p>` : ""}
     ${data.budget ? `<p><strong>Bütçe:</strong> ${data.budget}</p>` : ""}
     <p><strong>Mesaj:</strong></p>
     <p>${data.message.replace(/\n/g, "<br>")}</p>
@@ -55,7 +55,7 @@ export async function POST(req: Request) {
       from: "Synorq <noreply@synorq.com>",
       to,
       replyTo: data.email,
-      subject: `New Lead: ${data.name} - ${data.sector}`,
+      subject: `New Lead: ${data.name}${data.sector ? ` - ${data.sector}` : ""}`,
       html: buildEmailHtml(data),
     });
 

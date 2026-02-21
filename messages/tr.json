@@ -23,7 +23,9 @@
     "trust_countries_label": "Ülke"
   },
   "services": {
+    "label": "Hizmetler",
     "title": "Ne Yapıyoruz",
+    "subtitle": "Web, mobil ve AI odaklı yazılım çözümleriyle ihtiyaçlarınızı karşılıyoruz.",
     "items": {
       "custom": {
         "title": "Özel Yazılım Geliştirme",
@@ -58,7 +60,9 @@
     }
   },
   "products": {
+    "label": "Ürünlerimiz",
     "title": "Ürünlerimiz",
+    "subtitle": "Sektöre özel, ölçeklenebilir SaaS ürünler.",
     "goldrisk": {
       "tag": "Fintech · Kuyumculuk",
       "badge": "Canlı",
@@ -69,29 +73,39 @@
       "result": "Kârlılık & risk görünürlüğü"
     },
     "coming_soon": "Yakında",
-    "coming_soon_sector": "E-ticaret / Tekstil"
+    "coming_soon_sector": "E-ticaret / Tekstil",
+    "coming_soon_description": "Tekstil firmaları için envanter, sipariş ve tedarik zinciri yönetimi platformu.",
+    "coming_soon_notify": "Haberdar Et"
   },
   "industries": {
+    "label": "Sektörler",
     "title": "Çalıştığımız Sektörler",
+    "subtitle": "Dört kritik sektörde derin uzmanlık ve kanıtlanmış çözümler.",
     "fintech": {
       "title": "Fintech & Kuyumculuk",
-      "description": "kanıtlanmış uzmanlık (GoldRisk AI)"
+      "description": "kanıtlanmış uzmanlık (GoldRisk AI)",
+      "why": "GoldRisk AI ile prova edilmiş"
     },
     "ecommerce": {
       "title": "E-ticaret & Tekstil",
-      "description": "entegrasyon + otomasyon ile ölçek"
+      "description": "entegrasyon + otomasyon ile ölçek",
+      "why": "Tekstil ihracatına dijital altyapı"
     },
     "elearning": {
       "title": "E-öğrenme",
-      "description": "yüksek trafikte stabil LMS"
+      "description": "yüksek trafikte stabil LMS",
+      "why": "Ölçeklenebilir LMS çözümleri"
     },
     "enterprise": {
       "title": "Kurumsal",
-      "description": "legacy entegrasyon ve süreç otomasyonu"
+      "description": "legacy entegrasyon ve süreç otomasyonu",
+      "why": "ERP entegrasyonu & otomasyon"
     }
   },
   "howItWorks": {
+    "label": "Süreç",
     "title": "Nasıl Çalışıyoruz",
+    "subtitle": "Basit, şeffaf ve sonuç odaklı bir çalışma modeli.",
     "step1": {
       "title": "Keşif & Analiz",
       "duration": "1–2 hafta",
@@ -112,10 +126,14 @@
     }
   },
   "testimonials": {
+    "label": "Referanslar",
     "title": "Güvenilen İş Ortağı",
-    "metric_projects": "50+ Proje",
-    "metric_sectors": "4 Sektör",
-    "metric_countries": "3 Ülke",
+    "metric_value_projects": "50+",
+    "metric_label_projects": "Tamamlanan Proje",
+    "metric_value_sectors": "4",
+    "metric_label_sectors": "Sektör",
+    "metric_value_countries": "3",
+    "metric_label_countries": "Ülke",
     "items": [
       {
         "name": "Placeholder",
@@ -138,11 +156,20 @@
     ]
   },
   "contact": {
+    "label": "İletişim",
     "title": "Birlikte Üretelim",
     "subtext": "Kapsamı netleştirelim, 48 saat içinde yol haritası + teklif paylaşalım.",
+    "success_title": "Mesajınız alındı!",
+    "send_another": "Yeni mesaj gönder",
+    "submitting": "Gönderiliyor...",
+    "privacy_note": "Bilgileriniz asla üçüncü taraflarla paylaşılmaz.",
+    "optional": "(opsiyonel)",
     "name": "Ad Soyad",
+    "name_placeholder": "Ad Soyad",
     "email": "E-posta",
+    "email_placeholder": "ornek@sirket.com",
     "company": "Şirket (opsiyonel)",
+    "company_placeholder": "Şirket adı",
     "sector": "Sektör",
     "sectors": {
       "fintech": "Fintech",
@@ -152,7 +179,9 @@
       "other": "Diğer"
     },
     "message": "Mesajınız",
+    "message_placeholder": "Projenizi kısaca anlatın...",
     "budget": "Bütçe aralığı (opsiyonel)",
+    "budget_placeholder": "₺50k–100k",
     "submit": "Talep Gönder",
     "success": "Mesajınız alındı. 48 saat içinde yol haritası ve teklif paylaşacağız.",
     "error": "Bir hata oluştu. Lütfen tekrar deneyin."
