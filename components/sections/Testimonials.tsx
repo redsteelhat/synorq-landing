@@ -9,7 +9,7 @@ export function Testimonials() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const items = t.raw("items") as Array<{ name: string; role: string; quote: string }>;
+  const items = t.raw("items") as Array<{ name: string; role: string; quote: string; outcome?: string }>;
 
   return (
     <section
@@ -51,7 +51,10 @@ export function Testimonials() {
               whileHover={{ y: -6, borderColor: "rgba(0,212,255,0.4)" }}
               className="glass-card p-8 border border-border hover:border-accent/40 transition-colors duration-200"
             >
-              <p className="text-text-muted italic mb-6">&ldquo;{item.quote}&rdquo;</p>
+              <p className="text-text-muted italic mb-4">&ldquo;{item.quote}&rdquo;</p>
+              {item.outcome && (
+                <p className="text-accent/90 text-sm font-medium mb-4">{item.outcome}</p>
+              )}
               <div>
                 <p className="font-display font-semibold text-text">{item.name}</p>
                 <p className="text-text-muted text-sm">{item.role}</p>

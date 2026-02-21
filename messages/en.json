@@ -5,45 +5,55 @@
     "industries": "Industries",
     "about": "About",
     "contact": "Contact",
-    "cta": "Get Started"
+    "cta": "Book a Call"
   },
   "hero": {
     "badge": "AI-Powered Software Company",
     "headline": "Build Smarter.",
     "headline_accent": "Scale Faster.",
-    "subline": "Custom software delivery plus vertical SaaS products built for modern operations.",
+    "subline": "We ship web & mobile products in 6–10 weeks and reduce ops cost with AI automation.",
     "cta_primary": "Book a Discovery Call",
-    "cta_secondary": "View Products",
-    "trust_projects": "50+ Projects",
-    "trust_sectors": "4 Industries",
-    "trust_countries": "3 Countries"
+    "cta_secondary": "Explore GoldRisk AI",
+    "trusted_by": "Trusted By",
+    "trust_projects": "50+",
+    "trust_projects_label": "Delivery",
+    "trust_sectors": "4",
+    "trust_sectors_label": "Vertical",
+    "trust_countries": "3",
+    "trust_countries_label": "Countries"
   },
   "services": {
     "title": "What We Do",
     "items": {
       "custom": {
         "title": "Custom Software Development",
-        "description": "Web, mobile, internal systems"
+        "description": "Web, mobile, internal systems",
+        "deliverable": "MVP + roadmap + production deploy"
       },
       "ai": {
         "title": "AI Integration & Automation",
-        "description": "LLM integration, workflow automation"
+        "description": "LLM integration, workflow automation",
+        "deliverable": "Workflow + guardrails + cost monitoring"
       },
       "saas": {
         "title": "SaaS Product Development",
-        "description": "MVP to scalable architecture"
+        "description": "MVP to scalable architecture",
+        "deliverable": "MVP + scalable architecture"
       },
       "api": {
         "title": "API & Backend Services",
-        "description": "Microservices, REST, data modeling"
+        "description": "Microservices, REST, data modeling",
+        "deliverable": "Postgres schema + REST API + observability"
       },
       "ecommerce": {
         "title": "E-commerce Solutions",
-        "description": "Integrations, ops automation"
+        "description": "Integrations, ops automation",
+        "deliverable": "Integrations + ops automation"
       },
       "elearning": {
         "title": "E-learning Platforms",
-        "description": "LMS, content management, multi-tenant setups"
+        "description": "LMS, content management, multi-tenant setups",
+        "deliverable": "LMS + content management"
       }
     }
   },
@@ -55,7 +65,8 @@
       "name": "GoldRisk AI",
       "description": "AI-powered profitability and risk analytics for jewelry businesses—built for multi-branch operations and reporting.",
       "features": ["Stock & profitability analysis", "Risk scoring", "Multi-branch management", "Financial reporting"],
-      "cta": "Learn More"
+      "cta": "Request Demo",
+      "result": "Profitability & risk visibility"
     },
     "coming_soon": "Coming Soon",
     "coming_soon_sector": "E-commerce / Textile"
@@ -83,15 +94,21 @@
     "title": "How We Work",
     "step1": {
       "title": "Discovery & Analysis",
-      "description": "goals, scope, technical feasibility"
+      "duration": "1–2 weeks",
+      "description": "goals, scope, technical feasibility",
+      "artifact": "Scope doc, backlog, architecture"
     },
     "step2": {
       "title": "Design & Delivery",
-      "description": "sprints, demo cadence, quality gates"
+      "duration": "Sprint",
+      "description": "sprints, demo cadence, quality gates",
+      "artifact": "Weekly demo, staging"
     },
     "step3": {
       "title": "Launch & Support",
-      "description": "go-live, monitoring, iteration"
+      "duration": "SLA",
+      "description": "go-live, monitoring, iteration",
+      "artifact": "Deploy + monitoring + support"
     }
   },
   "testimonials": {
@@ -102,18 +119,21 @@
     "items": [
       {
         "name": "Placeholder",
-        "role": "CEO",
-        "quote": "Delivery speed and communication quality are top-tier."
+        "role": "CEO · Fintech",
+        "quote": "Delivery speed and communication quality are top-tier.",
+        "outcome": "Launched in 8 weeks."
       },
       {
         "name": "Placeholder",
-        "role": "IT Director",
-        "quote": "We launched critical integrations without a hitch."
+        "role": "IT Director · E-commerce",
+        "quote": "We launched critical integrations without a hitch.",
+        "outcome": "Manual processes reduced by 40%."
       },
       {
         "name": "Placeholder",
-        "role": "Product Manager",
-        "quote": "With a product approach, sprints were clear and measurable."
+        "role": "Product Manager · Enterprise",
+        "quote": "With a product approach, sprints were clear and measurable.",
+        "outcome": "First demo in 2 weeks."
       }
     ]
   },
@@ -134,7 +154,7 @@
     "message": "Your Message",
     "budget": "Budget range (optional)",
     "submit": "Send Request",
-    "success": "Your message has been received. We'll get back to you soon.",
+    "success": "Your message has been received. We'll share a roadmap and proposal within 48 hours.",
     "error": "An error occurred. Please try again."
   },
   "footer": {

@@ -51,6 +51,9 @@ export function Services() {
               <p className="text-text-muted text-sm leading-relaxed">
                 {t(`items.${key}.description`)}
               </p>
+              <p className="text-accent/90 text-sm mt-2 font-medium">
+                {t(`items.${key}.deliverable`)}
+              </p>
             </motion.div>
           ))}
         </div>

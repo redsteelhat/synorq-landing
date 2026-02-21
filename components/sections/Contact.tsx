@@ -103,33 +103,6 @@ export function Contact() {
               )}
             </div>
             <div>
-              <label htmlFor="company" className="block text-sm font-medium text-text mb-2">
-                {t("company")}
-              </label>
-              <input
-                id="company"
-                {...register("company")}
-                className="w-full px-4 py-3 rounded-lg bg-surface border border-border text-text placeholder-text-muted/50 focus:border-accent focus:outline-none transition-colors"
-                placeholder={t("company")}
-              />
-            </div>
-            <div>
-              <label htmlFor="sector" className="block text-sm font-medium text-text mb-2">
-                {t("sector")}
-              </label>
-              <select
-                id="sector"
-                {...register("sector")}
-                className="w-full px-4 py-3 rounded-lg bg-surface border border-border text-text focus:border-accent focus:outline-none transition-colors"
-              >
-                {sectorKeys.map((key) => (
-                  <option key={key} value={key}>
-                    {t(`sectors.${key}`)}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div>
               <label htmlFor="message" className="block text-sm font-medium text-text mb-2">
                 {t("message")}
               </label>
@@ -144,17 +117,51 @@ export function Contact() {
                 <p className="mt-1 text-sm text-red-400">{errors.message.message}</p>
               )}
             </div>
-            <div>
-              <label htmlFor="budget" className="block text-sm font-medium text-text mb-2">
-                {t("budget")}
-              </label>
-              <input
-                id="budget"
-                {...register("budget")}
-                className="w-full px-4 py-3 rounded-lg bg-surface border border-border text-text placeholder-text-muted/50 focus:border-accent focus:outline-none transition-colors"
-                placeholder={t("budget")}
-              />
-            </div>
+            <details className="group">
+              <summary className="text-sm text-text-muted cursor-pointer hover:text-accent transition-colors">
+                + {t("company")} / {t("sector")} / {t("budget")}
+              </summary>
+              <div className="mt-4 space-y-4 pt-4 border-t border-border">
+                <div>
+                  <label htmlFor="company" className="block text-sm text-text-muted mb-1">
+                    {t("company")}
+                  </label>
+                  <input
+                    id="company"
+                    {...register("company")}
+                    className="w-full px-4 py-2 rounded-lg bg-surface border border-border text-text placeholder-text-muted/50 focus:border-accent focus:outline-none transition-colors text-sm"
+                    placeholder={t("company")}
+                  />
+                </div>
+                <div>
+                  <label htmlFor="sector" className="block text-sm text-text-muted mb-1">
+                    {t("sector")}
+                  </label>
+                  <select
+                    id="sector"
+                    {...register("sector")}
+                    className="w-full px-4 py-2 rounded-lg bg-surface border border-border text-text focus:border-accent focus:outline-none transition-colors text-sm"
+                  >
+                    {sectorKeys.map((key) => (
+                      <option key={key} value={key}>
+                        {t(`sectors.${key}`)}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label htmlFor="budget" className="block text-sm text-text-muted mb-1">
+                    {t("budget")}
+                  </label>
+                  <input
+                    id="budget"
+                    {...register("budget")}
+                    className="w-full px-4 py-2 rounded-lg bg-surface border border-border text-text placeholder-text-muted/50 focus:border-accent focus:outline-none transition-colors text-sm"
+                    placeholder={t("budget")}
+                  />
+                </div>
+              </div>
+            </details>
             {status === "success" && (
               <p className="text-accent text-sm">{t("success")}</p>
             )}

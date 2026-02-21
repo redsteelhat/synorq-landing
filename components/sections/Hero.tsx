@@ -45,16 +45,25 @@ function BackgroundMesh() {
 }
 
 function TrustBar({ t }: { t: (key: string) => string }) {
+  const metrics = [
+    { value: t("trust_projects"), label: t("trust_projects_label") },
+    { value: t("trust_sectors"), label: t("trust_sectors_label") },
+    { value: t("trust_countries"), label: t("trust_countries_label") },
+  ];
   return (
-    <motion.div
-      variants={item}
-      className="flex flex-wrap justify-center gap-6 md:gap-12 text-text-muted text-sm mt-12"
-    >
-      <span>{t("trust_projects")}</span>
-      <span className="text-text-muted/60"> · </span>
-      <span>{t("trust_sectors")}</span>
-      <span className="text-text-muted/60"> · </span>
-      <span>{t("trust_countries")}</span>
+    <motion.div variants={item} className="mt-12 w-full max-w-2xl mx-auto">
+      <p className="text-text-muted/80 text-sm mb-4">{t("trusted_by")}</p>
+      <div className="flex flex-wrap justify-center gap-6 md:gap-10">
+        {metrics.map((m, i) => (
+          <div
+            key={i}
+            className="flex flex-col items-center px-4 py-2 rounded-lg bg-surface/40 border border-border/50"
+          >
+            <span className="font-display font-bold text-accent text-lg">{m.value}</span>
+            <span className="text-text-muted text-xs">{m.label}</span>
+          </div>
+        ))}
+      </div>
     </motion.div>
   );
 }

@@ -36,14 +36,20 @@ export function HowItWorks() {
               className="relative"
             >
               <div className="glass-card p-8 border border-border h-full">
-                <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent/20 text-accent font-display font-bold text-lg mb-6">
+                <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent/20 text-accent font-display font-bold text-lg mb-4">
                   {i + 1}
                 </span>
+                <p className="text-accent/90 text-xs font-semibold uppercase tracking-wide mb-2">
+                  {t(`${step}.duration`)}
+                </p>
                 <h3 className="font-display font-semibold text-xl text-text mb-3">
                   {t(`${step}.title`)}
                 </h3>
-                <p className="text-text-muted text-sm">
+                <p className="text-text-muted text-sm mb-4">
                   {t(`${step}.description`)}
+                </p>
+                <p className="text-text/80 text-sm font-medium">
+                  {t(`${step}.artifact`)}
                 </p>
               </div>
               {i < steps.length - 1 && (

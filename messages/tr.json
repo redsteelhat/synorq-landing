@@ -5,45 +5,55 @@
     "industries": "Sektörler",
     "about": "Hakkımızda",
     "contact": "İletişim",
-    "cta": "Başlayalım"
+    "cta": "Keşif Görüşmesi"
   },
   "hero": {
     "badge": "AI Destekli Yazılım Şirketi",
     "headline": "Daha Akıllı Kur.",
     "headline_accent": "Daha Hızlı Büyü.",
-    "subline": "Yazılım ajansı ve dikey SaaS ürünlerimizle işinizi dijitalde ölçekleyin.",
+    "subline": "Web & mobil ürünlerinizi 6–10 haftada production'a çıkarır, AI otomasyonlarıyla operasyon maliyetini düşürürüz.",
     "cta_primary": "Keşif Görüşmesi Planla",
-    "cta_secondary": "Ürünleri Gör",
-    "trust_projects": "50+ Proje",
-    "trust_sectors": "4 Sektör",
-    "trust_countries": "3 Ülke"
+    "cta_secondary": "GoldRisk AI'ı İncele",
+    "trusted_by": "Güvenildi",
+    "trust_projects": "50+",
+    "trust_projects_label": "Teslimat",
+    "trust_sectors": "4",
+    "trust_sectors_label": "Sektör",
+    "trust_countries": "3",
+    "trust_countries_label": "Ülke"
   },
   "services": {
     "title": "Ne Yapıyoruz",
     "items": {
       "custom": {
         "title": "Özel Yazılım Geliştirme",
-        "description": "Web app, mobil uygulama, kurumsal sistemler"
+        "description": "Web app, mobil uygulama, kurumsal sistemler",
+        "deliverable": "MVP + roadmap + production deploy"
       },
       "ai": {
         "title": "AI Entegrasyon & Otomasyon",
-        "description": "LLM entegrasyonu, süreç otomasyonu, agent workflow"
+        "description": "LLM entegrasyonu, süreç otomasyonu, agent workflow",
+        "deliverable": "Workflow + guardrails + cost monitoring"
       },
       "saas": {
         "title": "SaaS Ürün Geliştirme",
-        "description": "MVP'den ölçeklenebilir mimariye"
+        "description": "MVP'den ölçeklenebilir mimariye",
+        "deliverable": "MVP + scalable architecture"
       },
       "api": {
         "title": "API & Backend",
-        "description": "Microservices, REST, veri modelleme, performans"
+        "description": "Microservices, REST, veri modelleme, performans",
+        "deliverable": "Postgres schema + REST API + observability"
       },
       "ecommerce": {
         "title": "E-ticaret Çözümleri",
-        "description": "B2B/B2C, entegrasyonlar, operasyon otomasyonu"
+        "description": "B2B/B2C, entegrasyonlar, operasyon otomasyonu",
+        "deliverable": "Integrations + ops automation"
       },
       "elearning": {
         "title": "E-Öğrenme Platformları",
-        "description": "LMS, içerik yönetimi, çoklu tenant mimariler"
+        "description": "LMS, içerik yönetimi, çoklu tenant mimariler",
+        "deliverable": "LMS + content management"
       }
     }
   },
@@ -55,7 +65,8 @@
       "name": "GoldRisk AI",
       "description": "Kuyumcu işletmeleri için AI destekli kârlılık ve risk analizi platformu. Çok şubeli destek ve finansal raporlama.",
       "features": ["Stok & kârlılık analizi", "Risk skorlaması", "Çok şube yönetimi", "Finansal raporlama"],
-      "cta": "Detayları Gör"
+      "cta": "Demo Talep Et",
+      "result": "Kârlılık & risk görünürlüğü"
     },
     "coming_soon": "Yakında",
     "coming_soon_sector": "E-ticaret / Tekstil"
@@ -83,15 +94,21 @@
     "title": "Nasıl Çalışıyoruz",
     "step1": {
       "title": "Keşif & Analiz",
-      "description": "hedefler, kapsam, teknik fizibilite"
+      "duration": "1–2 hafta",
+      "description": "hedefler, kapsam, teknik fizibilite",
+      "artifact": "Scope doc, backlog, mimari"
     },
     "step2": {
-      "title": "Tasarım & Geliştirme",
-      "description": "sprint'ler, demo ritmi, kalite kapıları"
+      "title": "Tasarım & Teslimat",
+      "duration": "Sprint",
+      "description": "sprint'ler, demo ritmi, kalite kapıları",
+      "artifact": "Haftalık demo, staging"
     },
     "step3": {
-      "title": "Teslimat & Destek",
-      "description": "canlıya alma, izleme, iyileştirme"
+      "title": "Canlıya Alma & Destek",
+      "duration": "SLA",
+      "description": "deploy, izleme, iyileştirme",
+      "artifact": "Deploy + monitoring + support"
     }
   },
   "testimonials": {
@@ -102,18 +119,21 @@
     "items": [
       {
         "name": "Placeholder",
-        "role": "CEO",
-        "quote": "Teslimat hızı ve iletişim kalitesi üst seviye."
+        "role": "CEO · Fintech",
+        "quote": "Teslimat hızı ve iletişim kalitesi üst seviye.",
+        "outcome": "8 haftada yayına aldık."
       },
       {
         "name": "Placeholder",
-        "role": "IT Müdürü",
-        "quote": "Kritik entegrasyonları sorunsuz yayına aldık."
+        "role": "IT Müdürü · E-ticaret",
+        "quote": "Kritik entegrasyonları sorunsuz yayına aldık.",
+        "outcome": "Manuel süreçler %40 azaldı."
       },
       {
         "name": "Placeholder",
-        "role": "Ürün Yöneticisi",
-        "quote": "Ürün yaklaşımıyla sprint'ler net ve ölçülebilirdi."
+        "role": "Ürün Yöneticisi · Kurumsal",
+        "quote": "Ürün yaklaşımıyla sprint'ler net ve ölçülebilirdi.",
+        "outcome": "İlk demo 2 haftada."
       }
     ]
   },
@@ -134,7 +154,7 @@
     "message": "Mesajınız",
     "budget": "Bütçe aralığı (opsiyonel)",
     "submit": "Talep Gönder",
-    "success": "Mesajınız alındı. En kısa sürede dönüş yapacağız.",
+    "success": "Mesajınız alındı. 48 saat içinde yol haritası ve teklif paylaşacağız.",
     "error": "Bir hata oluştu. Lütfen tekrar deneyin."
   },
   "footer": {

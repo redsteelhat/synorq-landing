@@ -39,13 +39,16 @@ export function Products() {
               <span className="text-xs text-accent font-medium">
                 {t("goldrisk.tag")}
               </span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-accent/20 text-accent">
+              <span className="text-xs px-3 py-1 rounded-full bg-accent/25 text-accent font-semibold border border-accent/40">
                 {t("goldrisk.badge")}
               </span>
             </div>
-            <h3 className="font-display font-bold text-2xl text-text mb-3">
+            <h3 className="font-display font-bold text-2xl text-text mb-2">
               {t("goldrisk.name")}
             </h3>
+            <p className="text-accent text-sm font-medium mb-3">
+              {t("goldrisk.result")}
+            </p>
             <p className="text-text-muted text-sm mb-6">
               {t("goldrisk.description")}
             </p>
