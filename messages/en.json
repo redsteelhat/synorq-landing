@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "services": "Services",
+    "products": "Products",
+    "industries": "Industries",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get Started"
+  },
+  "hero": {
+    "badge": "AI-Powered Software Company",
+    "headline": "Build Smarter.",
+    "headline_accent": "Scale Faster.",
+    "subline": "Grow your business digitally with our software agency and SaaS products. From fintech to textile, e-learning to enterprise systems.",
+    "cta_primary": "Get Started",
+    "cta_secondary": "View Products",
+    "trust_projects": "50+ Projects",
+    "trust_sectors": "4 Industries",
+    "trust_countries": "3 Countries"
+  },
+  "services": {
+    "title": "What We Do",
+    "items": {
+      "custom": {
+        "title": "Custom Software Development",
+        "description": "Web apps, e-commerce, enterprise systems, and mobile applications"
+      },
+      "ai": {
+        "title": "AI Integration & Automation",
+        "description": "ChatGPT, Claude, Gemini API integration and business process automation"
+      },
+      "saas": {
+        "title": "SaaS Product Development",
+        "description": "Vertical SaaS products, from MVP to production"
+      },
+      "api": {
+        "title": "API & Backend Services",
+        "description": "Microservices, RESTful API, database design"
+      },
+      "ecommerce": {
+        "title": "E-commerce Solutions",
+        "description": "B2B/B2C platforms, integrations, automation"
+      },
+      "elearning": {
+        "title": "E-learning Platforms",
+        "description": "LMS systems, content management, scalable infrastructure"
+      }
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "goldrisk": {
+      "tag": "Fintech · Jewelry",
+      "badge": "Live",
+      "name": "GoldRisk AI",
+      "description": "AI-powered profitability and risk analysis platform for jewelry businesses. Multi-branch support, real-time gold price tracking.",
+      "features": ["Stock & profitability analysis", "Risk scoring", "Multi-branch management", "Financial reporting"],
+      "cta": "Request Demo"
+    },
+    "coming_soon": "Coming Soon",
+    "coming_soon_sector": "E-commerce / Textile"
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "fintech": {
+      "title": "Fintech & Jewelry",
+      "description": "Proven expertise with GoldRisk AI"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Textile",
+      "description": "Digital infrastructure for Turkey's textile export power"
+    },
+    "elearning": {
+      "title": "E-learning",
+      "description": "LMS, content management, scalable platforms"
+    },
+    "enterprise": {
+      "title": "Enterprise & Corporate",
+      "description": "Enterprise systems, ERP integration, automation"
+    }
+  },
+  "howItWorks": {
+    "title": "How We Work",
+    "step1": {
+      "title": "Discovery & Analysis",
+      "description": "Needs analysis, technical feasibility, project plan"
+    },
+    "step2": {
+      "title": "Design & Development",
+      "description": "Agile sprint cycles, regular demos and updates"
+    },
+    "step3": {
+      "title": "Delivery & Support",
+      "description": "Deployment, training, ongoing technical support"
+    }
+  },
+  "testimonials": {
+    "title": "Trusted By",
+    "metric_projects": "50+ Projects",
+    "metric_sectors": "4 Industries",
+    "metric_countries": "3 Countries",
+    "items": [
+      {
+        "name": "Ahmet Y.",
+        "role": "CEO, Jewelry Company",
+        "quote": "Our stock management and profit analysis have become much more efficient thanks to GoldRisk AI."
+      },
+      {
+        "name": "Mehmet K.",
+        "role": "E-commerce Manager, Textile Company",
+        "quote": "The Synorq team perfectly blends technical expertise with our business processes."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Build Together",
+    "name": "Full Name",
+    "email": "Email",
+    "company": "Company (optional)",
+    "sector": "Sector",
+    "sectors": {
+      "fintech": "Fintech",
+      "ecommerce": "E-commerce",
+      "elearning": "E-learning",
+      "enterprise": "Enterprise",
+      "other": "Other"
+    },
+    "message": "Your Message",
+    "budget": "Budget range (optional)",
+    "submit": "Submit",
+    "success": "Your message has been received. We'll get back to you soon.",
+    "error": "An error occurred. Please try again."
+  },
+  "footer": {
+    "tagline": "Build Smarter. Scale Faster.",
+    "services": "Services",
+    "products": "Products",
+    "industries": "Industries",
+    "about": "About",
+    "contact": "Contact",
+    "copyright": "© 2025 Synorq. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}

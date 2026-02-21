@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "services": "Hizmetler",
+    "products": "Ürünler",
+    "industries": "Sektörler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "cta": "Başlayalım"
+  },
+  "hero": {
+    "badge": "AI Destekli Yazılım Şirketi",
+    "headline": "Daha Akıllı Kur.",
+    "headline_accent": "Daha Hızlı Büyü.",
+    "subline": "Yazılım ajansı ve SaaS ürünlerimizle işinizi dijitalde büyütün. Fintech'ten tekstile, e-öğrenmeden kurumsal sistemlere.",
+    "cta_primary": "Başlayalım",
+    "cta_secondary": "Ürünleri Gör",
+    "trust_projects": "50+ Proje",
+    "trust_sectors": "4 Sektör",
+    "trust_countries": "3 Ülke"
+  },
+  "services": {
+    "title": "Ne Yapıyoruz",
+    "items": {
+      "custom": {
+        "title": "Özel Yazılım Geliştirme",
+        "description": "Web uygulama, e-ticaret, kurumsal sistemler ve mobil uygulamalar"
+      },
+      "ai": {
+        "title": "AI Entegrasyonu ve Otomasyon",
+        "description": "ChatGPT, Claude, Gemini API entegrasyonu ve iş süreçlerinin otomasyonu"
+      },
+      "saas": {
+        "title": "SaaS Ürün Geliştirme",
+        "description": "Dikey SaaS ürünler, MVP'den production ortamına"
+      },
+      "api": {
+        "title": "API ve Backend Hizmetleri",
+        "description": "Microservices, RESTful API, veritabanı tasarımı"
+      },
+      "ecommerce": {
+        "title": "E-ticaret Çözümleri",
+        "description": "B2B/B2C platformlar, entegrasyonlar, otomasyon"
+      },
+      "elearning": {
+        "title": "E-öğrenme Platformları",
+        "description": "LMS sistemleri, içerik yönetimi, ölçeklenebilir altyapı"
+      }
+    }
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "goldrisk": {
+      "tag": "Fintech · Kuyumculuk",
+      "badge": "Canlı",
+      "name": "GoldRisk AI",
+      "description": "Kuyumcu işletmeleri için AI destekli karlılık ve risk analizi platformu. Çok şubeli destek, gerçek zamanlı altın fiyat takibi.",
+      "features": ["Stok & karlılık analizi", "Risk skorlaması", "Çok şube yönetimi", "Finansal raporlama"],
+      "cta": "Demo Talep Et"
+    },
+    "coming_soon": "Yakında",
+    "coming_soon_sector": "E-ticaret / Tekstil"
+  },
+  "industries": {
+    "title": "Çalıştığımız Sektörler",
+    "fintech": {
+      "title": "Fintech & Kuyumculuk",
+      "description": "GoldRisk AI ile prova edilmiş uzmanlık"
+    },
+    "ecommerce": {
+      "title": "E-ticaret & Tekstil",
+      "description": "Türkiye'nin tekstil ihracat gücüne dijital altyapı"
+    },
+    "elearning": {
+      "title": "E-öğrenme",
+      "description": "LMS, içerik yönetimi, ölçeklenebilir platformlar"
+    },
+    "enterprise": {
+      "title": "Kurumsal",
+      "description": "Kurumsal sistemler, ERP entegrasyonu, otomasyon"
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışıyoruz",
+    "step1": {
+      "title": "Keşif & Analiz",
+      "description": "İhtiyaç analizi, teknik fizibilite, proje planı"
+    },
+    "step2": {
+      "title": "Tasarım & Geliştirme",
+      "description": "Agile sprint döngüleri, düzenli demo ve güncelleme"
+    },
+    "step3": {
+      "title": "Teslimat & Destek",
+      "description": "Deployment, eğitim, süregelen teknik destek"
+    }
+  },
+  "testimonials": {
+    "title": "Güvenildi",
+    "metric_projects": "50+ Proje",
+    "metric_sectors": "4 Sektör",
+    "metric_countries": "3 Ülke",
+    "items": [
+      {
+        "name": "Ahmet Y.",
+        "role": "CEO, Kuyumcu Firması",
+        "quote": "GoldRisk AI sayesinde stok yönetimimiz ve kar analizimiz çok daha verimli hale geldi."
+      },
+      {
+        "name": "Mehmet K.",
+        "role": "E-ticaret Müdürü, Tekstil Firması",
+        "quote": "Synorq ekibi teknik bilgiyi iş süreçlerimizle mükemmel şekilde harmanlıyor."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Birlikte Yapalım",
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "company": "Şirket (opsiyonel)",
+    "sector": "Sektör",
+    "sectors": {
+      "fintech": "Fintech",
+      "ecommerce": "E-ticaret",
+      "elearning": "E-öğrenme",
+      "enterprise": "Kurumsal",
+      "other": "Diğer"
+    },
+    "message": "Mesajınız",
+    "budget": "Bütçe aralığı (opsiyonel)",
+    "submit": "Gönder",
+    "success": "Mesajınız alındı. En kısa sürede dönüş yapacağız.",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "footer": {
+    "tagline": "Build Smarter. Scale Faster.",
+    "services": "Hizmetler",
+    "products": "Ürünler",
+    "industries": "Sektörler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "copyright": "© 2025 Synorq. Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları"
+  }
+}
