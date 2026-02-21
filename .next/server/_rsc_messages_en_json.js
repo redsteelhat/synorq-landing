@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_messages_en_json";
+exports.ids = ["_rsc_messages_en_json"];
+exports.modules = {
+
+/***/ "(rsc)/./messages/en.json":
+/*!**************************!*\
+  !*** ./messages/en.json ***!
+  \**************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"nav":{"services":"Services","products":"Products","industries":"Industries","about":"About","contact":"Contact","cta":"Get Started"},"hero":{"badge":"AI-Powered Software Company","headline":"Build Smarter.","headline_accent":"Scale Faster.","subline":"Custom software delivery plus vertical SaaS products built for modern operations.","cta_primary":"Book a Discovery Call","cta_secondary":"View Products","trust_projects":"50+ Projects","trust_sectors":"4 Industries","trust_countries":"3 Countries"},"services":{"title":"What We Do","items":{"custom":{"title":"Custom Software Development","description":"Web, mobile, internal systems"},"ai":{"title":"AI Integration & Automation","description":"LLM integration, workflow automation"},"saas":{"title":"SaaS Product Development","description":"MVP to scalable architecture"},"api":{"title":"API & Backend Services","description":"Microservices, REST, data modeling"},"ecommerce":{"title":"E-commerce Solutions","description":"Integrations, ops automation"},"elearning":{"title":"E-learning Platforms","description":"LMS, content management, multi-tenant setups"}}},"products":{"title":"Our Products","goldrisk":{"tag":"Fintech · Jewelry","badge":"Live","name":"GoldRisk AI","description":"AI-powered profitability and risk analytics for jewelry businesses—built for multi-branch operations and reporting.","features":["Stock & profitability analysis","Risk scoring","Multi-branch management","Financial reporting"],"cta":"Learn More"},"coming_soon":"Coming Soon","coming_soon_sector":"E-commerce / Textile"},"industries":{"title":"Industries We Serve","fintech":{"title":"Fintech & Jewelry","description":"Proven expertise (GoldRisk AI)"},"ecommerce":{"title":"E-commerce & Textile","description":"Scale with integration + automation"},"elearning":{"title":"E-learning","description":"Stable LMS at scale"},"enterprise":{"title":"Enterprise & Corporate","description":"Legacy integration and process automation"}},"howItWorks":{"title":"How We Work","step1":{"title":"Discovery & Analysis","description":"goals, scope, technical feasibility"},"step2":{"title":"Design & Delivery","description":"sprints, demo cadence, quality gates"},"step3":{"title":"Launch & Support","description":"go-live, monitoring, iteration"}},"testimonials":{"title":"Trusted Partner","metric_projects":"50+ Projects","metric_sectors":"4 Industries","metric_countries":"3 Countries","items":[{"name":"Placeholder","role":"CEO","quote":"Delivery speed and communication quality are top-tier."},{"name":"Placeholder","role":"IT Director","quote":"We launched critical integrations without a hitch."},{"name":"Placeholder","role":"Product Manager","quote":"With a product approach, sprints were clear and measurable."}]},"contact":{"title":"Let\'s Build Together","subtext":"We\'ll clarify scope and share a roadmap + proposal within 48 hours.","name":"Full Name","email":"Email","company":"Company (optional)","sector":"Sector","sectors":{"fintech":"Fintech","ecommerce":"E-commerce","elearning":"E-learning","enterprise":"Enterprise","other":"Other"},"message":"Your Message","budget":"Budget range (optional)","submit":"Send Request","success":"Your message has been received. We\'ll get back to you soon.","error":"An error occurred. Please try again."},"footer":{"tagline":"Build Smarter. Scale Faster.","services":"Services","products":"Products","industries":"Industries","about":"About","contact":"Contact","copyright":"© 2025 Synorq. All rights reserved.","privacy":"Privacy Policy","terms":"Terms of Use"}}');
+
+/***/ })
+
+};
+;

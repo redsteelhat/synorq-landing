@@ -54,10 +54,18 @@ export function Contact() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="font-display font-bold text-section text-center mb-12"
+          className="font-display font-bold text-section text-center mb-4"
         >
           {t("title")}
         </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 40 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.7, delay: 0.05, ease: "easeOut" }}
+          className="text-text-muted text-center mb-12"
+        >
+          {t("subtext")}
+        </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}

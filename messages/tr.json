@@ -11,8 +11,8 @@
     "badge": "AI Destekli Yazılım Şirketi",
     "headline": "Daha Akıllı Kur.",
     "headline_accent": "Daha Hızlı Büyü.",
-    "subline": "Yazılım ajansı ve SaaS ürünlerimizle işinizi dijitalde büyütün. Fintech'ten tekstile, e-öğrenmeden kurumsal sistemlere.",
-    "cta_primary": "Başlayalım",
+    "subline": "Yazılım ajansı ve dikey SaaS ürünlerimizle işinizi dijitalde ölçekleyin.",
+    "cta_primary": "Keşif Görüşmesi Planla",
     "cta_secondary": "Ürünleri Gör",
     "trust_projects": "50+ Proje",
     "trust_sectors": "4 Sektör",
@@ -23,27 +23,27 @@
     "items": {
       "custom": {
         "title": "Özel Yazılım Geliştirme",
-        "description": "Web uygulama, e-ticaret, kurumsal sistemler ve mobil uygulamalar"
+        "description": "Web app, mobil uygulama, kurumsal sistemler"
       },
       "ai": {
-        "title": "AI Entegrasyonu ve Otomasyon",
-        "description": "ChatGPT, Claude, Gemini API entegrasyonu ve iş süreçlerinin otomasyonu"
+        "title": "AI Entegrasyon & Otomasyon",
+        "description": "LLM entegrasyonu, süreç otomasyonu, agent workflow"
       },
       "saas": {
         "title": "SaaS Ürün Geliştirme",
-        "description": "Dikey SaaS ürünler, MVP'den production ortamına"
+        "description": "MVP'den ölçeklenebilir mimariye"
       },
       "api": {
-        "title": "API ve Backend Hizmetleri",
-        "description": "Microservices, RESTful API, veritabanı tasarımı"
+        "title": "API & Backend",
+        "description": "Microservices, REST, veri modelleme, performans"
       },
       "ecommerce": {
         "title": "E-ticaret Çözümleri",
-        "description": "B2B/B2C platformlar, entegrasyonlar, otomasyon"
+        "description": "B2B/B2C, entegrasyonlar, operasyon otomasyonu"
       },
       "elearning": {
-        "title": "E-öğrenme Platformları",
-        "description": "LMS sistemleri, içerik yönetimi, ölçeklenebilir altyapı"
+        "title": "E-Öğrenme Platformları",
+        "description": "LMS, içerik yönetimi, çoklu tenant mimariler"
       }
     }
   },
@@ -53,9 +53,9 @@
       "tag": "Fintech · Kuyumculuk",
       "badge": "Canlı",
       "name": "GoldRisk AI",
-      "description": "Kuyumcu işletmeleri için AI destekli karlılık ve risk analizi platformu. Çok şubeli destek, gerçek zamanlı altın fiyat takibi.",
-      "features": ["Stok & karlılık analizi", "Risk skorlaması", "Çok şube yönetimi", "Finansal raporlama"],
-      "cta": "Demo Talep Et"
+      "description": "Kuyumcu işletmeleri için AI destekli kârlılık ve risk analizi platformu. Çok şubeli destek ve finansal raporlama.",
+      "features": ["Stok & kârlılık analizi", "Risk skorlaması", "Çok şube yönetimi", "Finansal raporlama"],
+      "cta": "Detayları Gör"
     },
     "coming_soon": "Yakında",
     "coming_soon_sector": "E-ticaret / Tekstil"
@@ -64,56 +64,62 @@
     "title": "Çalıştığımız Sektörler",
     "fintech": {
       "title": "Fintech & Kuyumculuk",
-      "description": "GoldRisk AI ile prova edilmiş uzmanlık"
+      "description": "kanıtlanmış uzmanlık (GoldRisk AI)"
     },
     "ecommerce": {
       "title": "E-ticaret & Tekstil",
-      "description": "Türkiye'nin tekstil ihracat gücüne dijital altyapı"
+      "description": "entegrasyon + otomasyon ile ölçek"
     },
     "elearning": {
       "title": "E-öğrenme",
-      "description": "LMS, içerik yönetimi, ölçeklenebilir platformlar"
+      "description": "yüksek trafikte stabil LMS"
     },
     "enterprise": {
       "title": "Kurumsal",
-      "description": "Kurumsal sistemler, ERP entegrasyonu, otomasyon"
+      "description": "legacy entegrasyon ve süreç otomasyonu"
     }
   },
   "howItWorks": {
     "title": "Nasıl Çalışıyoruz",
     "step1": {
       "title": "Keşif & Analiz",
-      "description": "İhtiyaç analizi, teknik fizibilite, proje planı"
+      "description": "hedefler, kapsam, teknik fizibilite"
     },
     "step2": {
       "title": "Tasarım & Geliştirme",
-      "description": "Agile sprint döngüleri, düzenli demo ve güncelleme"
+      "description": "sprint'ler, demo ritmi, kalite kapıları"
     },
     "step3": {
       "title": "Teslimat & Destek",
-      "description": "Deployment, eğitim, süregelen teknik destek"
+      "description": "canlıya alma, izleme, iyileştirme"
     }
   },
   "testimonials": {
-    "title": "Güvenildi",
+    "title": "Güvenilen İş Ortağı",
     "metric_projects": "50+ Proje",
     "metric_sectors": "4 Sektör",
     "metric_countries": "3 Ülke",
     "items": [
       {
-        "name": "Ahmet Y.",
-        "role": "CEO, Kuyumcu Firması",
-        "quote": "GoldRisk AI sayesinde stok yönetimimiz ve kar analizimiz çok daha verimli hale geldi."
+        "name": "Placeholder",
+        "role": "CEO",
+        "quote": "Teslimat hızı ve iletişim kalitesi üst seviye."
       },
       {
-        "name": "Mehmet K.",
-        "role": "E-ticaret Müdürü, Tekstil Firması",
-        "quote": "Synorq ekibi teknik bilgiyi iş süreçlerimizle mükemmel şekilde harmanlıyor."
+        "name": "Placeholder",
+        "role": "IT Müdürü",
+        "quote": "Kritik entegrasyonları sorunsuz yayına aldık."
+      },
+      {
+        "name": "Placeholder",
+        "role": "Ürün Yöneticisi",
+        "quote": "Ürün yaklaşımıyla sprint'ler net ve ölçülebilirdi."
       }
     ]
   },
   "contact": {
-    "title": "Birlikte Yapalım",
+    "title": "Birlikte Üretelim",
+    "subtext": "Kapsamı netleştirelim, 48 saat içinde yol haritası + teklif paylaşalım.",
     "name": "Ad Soyad",
     "email": "E-posta",
     "company": "Şirket (opsiyonel)",
@@ -127,7 +133,7 @@
     },
     "message": "Mesajınız",
     "budget": "Bütçe aralığı (opsiyonel)",
-    "submit": "Gönder",
+    "submit": "Talep Gönder",
     "success": "Mesajınız alındı. En kısa sürede dönüş yapacağız.",
     "error": "Bir hata oluştu. Lütfen tekrar deneyin."
   },

@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_messages_tr_json";
+exports.ids = ["_rsc_messages_tr_json"];
+exports.modules = {
+
+/***/ "(rsc)/./messages/tr.json":
+/*!**************************!*\
+  !*** ./messages/tr.json ***!
+  \**************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"nav":{"services":"Hizmetler","products":"Ürünler","industries":"Sektörler","about":"Hakkımızda","contact":"İletişim","cta":"Başlayalım"},"hero":{"badge":"AI Destekli Yazılım Şirketi","headline":"Daha Akıllı Kur.","headline_accent":"Daha Hızlı Büyü.","subline":"Yazılım ajansı ve dikey SaaS ürünlerimizle işinizi dijitalde ölçekleyin.","cta_primary":"Keşif Görüşmesi Planla","cta_secondary":"Ürünleri Gör","trust_projects":"50+ Proje","trust_sectors":"4 Sektör","trust_countries":"3 Ülke"},"services":{"title":"Ne Yapıyoruz","items":{"custom":{"title":"Özel Yazılım Geliştirme","description":"Web app, mobil uygulama, kurumsal sistemler"},"ai":{"title":"AI Entegrasyon & Otomasyon","description":"LLM entegrasyonu, süreç otomasyonu, agent workflow"},"saas":{"title":"SaaS Ürün Geliştirme","description":"MVP\'den ölçeklenebilir mimariye"},"api":{"title":"API & Backend","description":"Microservices, REST, veri modelleme, performans"},"ecommerce":{"title":"E-ticaret Çözümleri","description":"B2B/B2C, entegrasyonlar, operasyon otomasyonu"},"elearning":{"title":"E-Öğrenme Platformları","description":"LMS, içerik yönetimi, çoklu tenant mimariler"}}},"products":{"title":"Ürünlerimiz","goldrisk":{"tag":"Fintech · Kuyumculuk","badge":"Canlı","name":"GoldRisk AI","description":"Kuyumcu işletmeleri için AI destekli kârlılık ve risk analizi platformu. Çok şubeli destek ve finansal raporlama.","features":["Stok & kârlılık analizi","Risk skorlaması","Çok şube yönetimi","Finansal raporlama"],"cta":"Detayları Gör"},"coming_soon":"Yakında","coming_soon_sector":"E-ticaret / Tekstil"},"industries":{"title":"Çalıştığımız Sektörler","fintech":{"title":"Fintech & Kuyumculuk","description":"kanıtlanmış uzmanlık (GoldRisk AI)"},"ecommerce":{"title":"E-ticaret & Tekstil","description":"entegrasyon + otomasyon ile ölçek"},"elearning":{"title":"E-öğrenme","description":"yüksek trafikte stabil LMS"},"enterprise":{"title":"Kurumsal","description":"legacy entegrasyon ve süreç otomasyonu"}},"howItWorks":{"title":"Nasıl Çalışıyoruz","step1":{"title":"Keşif & Analiz","description":"hedefler, kapsam, teknik fizibilite"},"step2":{"title":"Tasarım & Geliştirme","description":"sprint\'ler, demo ritmi, kalite kapıları"},"step3":{"title":"Teslimat & Destek","description":"canlıya alma, izleme, iyileştirme"}},"testimonials":{"title":"Güvenilen İş Ortağı","metric_projects":"50+ Proje","metric_sectors":"4 Sektör","metric_countries":"3 Ülke","items":[{"name":"Placeholder","role":"CEO","quote":"Teslimat hızı ve iletişim kalitesi üst seviye."},{"name":"Placeholder","role":"IT Müdürü","quote":"Kritik entegrasyonları sorunsuz yayına aldık."},{"name":"Placeholder","role":"Ürün Yöneticisi","quote":"Ürün yaklaşımıyla sprint\'ler net ve ölçülebilirdi."}]},"contact":{"title":"Birlikte Üretelim","subtext":"Kapsamı netleştirelim, 48 saat içinde yol haritası + teklif paylaşalım.","name":"Ad Soyad","email":"E-posta","company":"Şirket (opsiyonel)","sector":"Sektör","sectors":{"fintech":"Fintech","ecommerce":"E-ticaret","elearning":"E-öğrenme","enterprise":"Kurumsal","other":"Diğer"},"message":"Mesajınız","budget":"Bütçe aralığı (opsiyonel)","submit":"Talep Gönder","success":"Mesajınız alındı. En kısa sürede dönüş yapacağız.","error":"Bir hata oluştu. Lütfen tekrar deneyin."},"footer":{"tagline":"Build Smarter. Scale Faster.","services":"Hizmetler","products":"Ürünler","industries":"Sektörler","about":"Hakkımızda","contact":"İletişim","copyright":"© 2025 Synorq. Tüm hakları saklıdır.","privacy":"Gizlilik Politikası","terms":"Kullanım Koşulları"}}');
+
+/***/ })
+
+};
+;

@@ -34,9 +34,9 @@ export function Testimonials() {
           className="flex flex-wrap justify-center gap-8 md:gap-16 mb-16 text-center"
         >
           <span className="text-text font-medium">{t("metric_projects")}</span>
-          <span className="text-border">|</span>
+          <span className="text-text-muted/60"> · </span>
           <span className="text-text font-medium">{t("metric_sectors")}</span>
-          <span className="text-border">|</span>
+          <span className="text-text-muted/60"> · </span>
           <span className="text-text font-medium">{t("metric_countries")}</span>
         </motion.div>
 

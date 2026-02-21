@@ -51,9 +51,9 @@ function TrustBar({ t }: { t: (key: string) => string }) {
       className="flex flex-wrap justify-center gap-6 md:gap-12 text-text-muted text-sm mt-12"
     >
       <span>{t("trust_projects")}</span>
-      <span className="text-border">|</span>
+      <span className="text-text-muted/60"> · </span>
       <span>{t("trust_sectors")}</span>
-      <span className="text-border">|</span>
+      <span className="text-text-muted/60"> · </span>
       <span>{t("trust_countries")}</span>
     </motion.div>
   );

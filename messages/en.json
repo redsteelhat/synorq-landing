@@ -11,8 +11,8 @@
     "badge": "AI-Powered Software Company",
     "headline": "Build Smarter.",
     "headline_accent": "Scale Faster.",
-    "subline": "Grow your business digitally with our software agency and SaaS products. From fintech to textile, e-learning to enterprise systems.",
-    "cta_primary": "Get Started",
+    "subline": "Custom software delivery plus vertical SaaS products built for modern operations.",
+    "cta_primary": "Book a Discovery Call",
     "cta_secondary": "View Products",
     "trust_projects": "50+ Projects",
     "trust_sectors": "4 Industries",
@@ -23,27 +23,27 @@
     "items": {
       "custom": {
         "title": "Custom Software Development",
-        "description": "Web apps, e-commerce, enterprise systems, and mobile applications"
+        "description": "Web, mobile, internal systems"
       },
       "ai": {
         "title": "AI Integration & Automation",
-        "description": "ChatGPT, Claude, Gemini API integration and business process automation"
+        "description": "LLM integration, workflow automation"
       },
       "saas": {
         "title": "SaaS Product Development",
-        "description": "Vertical SaaS products, from MVP to production"
+        "description": "MVP to scalable architecture"
       },
       "api": {
         "title": "API & Backend Services",
-        "description": "Microservices, RESTful API, database design"
+        "description": "Microservices, REST, data modeling"
       },
       "ecommerce": {
         "title": "E-commerce Solutions",
-        "description": "B2B/B2C platforms, integrations, automation"
+        "description": "Integrations, ops automation"
       },
       "elearning": {
         "title": "E-learning Platforms",
-        "description": "LMS systems, content management, scalable infrastructure"
+        "description": "LMS, content management, multi-tenant setups"
       }
     }
   },
@@ -53,9 +53,9 @@
       "tag": "Fintech · Jewelry",
       "badge": "Live",
       "name": "GoldRisk AI",
-      "description": "AI-powered profitability and risk analysis platform for jewelry businesses. Multi-branch support, real-time gold price tracking.",
+      "description": "AI-powered profitability and risk analytics for jewelry businesses—built for multi-branch operations and reporting.",
       "features": ["Stock & profitability analysis", "Risk scoring", "Multi-branch management", "Financial reporting"],
-      "cta": "Request Demo"
+      "cta": "Learn More"
     },
     "coming_soon": "Coming Soon",
     "coming_soon_sector": "E-commerce / Textile"
@@ -64,56 +64,62 @@
     "title": "Industries We Serve",
     "fintech": {
       "title": "Fintech & Jewelry",
-      "description": "Proven expertise with GoldRisk AI"
+      "description": "Proven expertise (GoldRisk AI)"
     },
     "ecommerce": {
       "title": "E-commerce & Textile",
-      "description": "Digital infrastructure for Turkey's textile export power"
+      "description": "Scale with integration + automation"
     },
     "elearning": {
       "title": "E-learning",
-      "description": "LMS, content management, scalable platforms"
+      "description": "Stable LMS at scale"
     },
     "enterprise": {
       "title": "Enterprise & Corporate",
-      "description": "Enterprise systems, ERP integration, automation"
+      "description": "Legacy integration and process automation"
     }
   },
   "howItWorks": {
     "title": "How We Work",
     "step1": {
       "title": "Discovery & Analysis",
-      "description": "Needs analysis, technical feasibility, project plan"
+      "description": "goals, scope, technical feasibility"
     },
     "step2": {
-      "title": "Design & Development",
-      "description": "Agile sprint cycles, regular demos and updates"
+      "title": "Design & Delivery",
+      "description": "sprints, demo cadence, quality gates"
     },
     "step3": {
-      "title": "Delivery & Support",
-      "description": "Deployment, training, ongoing technical support"
+      "title": "Launch & Support",
+      "description": "go-live, monitoring, iteration"
     }
   },
   "testimonials": {
-    "title": "Trusted By",
+    "title": "Trusted Partner",
     "metric_projects": "50+ Projects",
     "metric_sectors": "4 Industries",
     "metric_countries": "3 Countries",
     "items": [
       {
-        "name": "Ahmet Y.",
-        "role": "CEO, Jewelry Company",
-        "quote": "Our stock management and profit analysis have become much more efficient thanks to GoldRisk AI."
+        "name": "Placeholder",
+        "role": "CEO",
+        "quote": "Delivery speed and communication quality are top-tier."
       },
       {
-        "name": "Mehmet K.",
-        "role": "E-commerce Manager, Textile Company",
-        "quote": "The Synorq team perfectly blends technical expertise with our business processes."
+        "name": "Placeholder",
+        "role": "IT Director",
+        "quote": "We launched critical integrations without a hitch."
+      },
+      {
+        "name": "Placeholder",
+        "role": "Product Manager",
+        "quote": "With a product approach, sprints were clear and measurable."
       }
     ]
   },
   "contact": {
     "title": "Let's Build Together",
+    "subtext": "We'll clarify scope and share a roadmap + proposal within 48 hours.",
     "name": "Full Name",
     "email": "Email",
     "company": "Company (optional)",
@@ -127,7 +133,7 @@
     },
     "message": "Your Message",
     "budget": "Budget range (optional)",
-    "submit": "Submit",
+    "submit": "Send Request",
     "success": "Your message has been received. We'll get back to you soon.",
     "error": "An error occurred. Please try again."
   },
